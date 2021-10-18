@@ -115,6 +115,11 @@ the name of the home team, `"Brooklyn Nets"`. We can call the `gameHash`
 function inside of our `homeTeamName` function and operate on the object:
 
 ```js
+
+function homeTeamName2() {
+
+}
+
 function homeTeamName() {
   let object = gameObject()
   return object['home']['teamName']
@@ -131,7 +136,7 @@ results from functions into variables because it makes it easier to debug our
 programs later. One-liners are not always better!
 
 ```js
-function homeTeamName()
+function homeTeamName() {
   return gameObject()['home']['teamName']
 }
 
